@@ -11,9 +11,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Lowercase repo name
+      - name: Lowercase repo name and get SHA
         run: |
           echo "REPO_LOWER=${GITHUB_REPOSITORY,,}" >> ${GITHUB_ENV}
+          echo "SHORT_SHA=${GITHUB_SHA::7}" >> ${GITHUB_ENV}
 
       - name: Log in to GHCR
         uses: docker/login-action@v3
@@ -27,7 +28,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ env.REPO_LOWER }}:latest
+          tags: |
+            ghcr.io/${{ env.REPO_LOWER }}:latest
+            ghcr.io/${{ env.REPO_LOWER }}:${{ env.SHORT_SHA }}
 
       - name: Set up Kubectl
         uses: azure/k8s-set-context@v3
@@ -37,6 +40,6 @@ jobs:
 
       - name: Deploy to K3s
         run: |
-          sed -i "s|DOCKER_IMAGE_PLACEHOLDER|ghcr.io/${{ env.REPO_LOWER }}:latest|g" k8s/site.yaml
+          sed -i "s|DOCKER_IMAGE_PLACEHOLDER|ghcr.io/${{ env.REPO_LOWER }}:${{ env.SHORT_SHA }}|g" k8s/site.yaml
           kubectl apply -f k8s/site.yaml
           kubectl rollout restart deployment/personal-site
