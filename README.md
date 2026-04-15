@@ -1,3 +1,10 @@
+##
+Differences from the main repo
+- Changed Dockerfile for a more lightweight final image
+- Added k8s folder for deployment to k3s. Create deploy, service and ingress
+- Added GitHub Actions workflow for deployment to k3s
+
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
