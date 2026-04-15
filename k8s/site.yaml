@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: site
-        image: ghcr.io/${{ github.repository }}:latest
+        image: DOCKER_IMAGE_PLACEHOLDER
         ports:
         - containerPort: 80
 ---
