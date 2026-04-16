@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Nanotechnology | Applied Maths and Computer Science, Novosibirs State Technical University, 2017-2021 (Unfinished)
+* B.S. in Nanotechnology and  Applied Maths and Computer Science, Novosibirsk State Technical University, 2017-2021 (Unfinished)
 
 Work experience
 ======
@@ -40,40 +40,4 @@ Skills
 
 Links
 ======
-  * [Hello](daterdum.com/hello)
-
-[//]: # (Publications)
-
-[//]: # (======)
-
-[//]: # (  <ul>{% for post in site.publications reversed %})
-
-[//]: # (    {% include archive-single-cv.html %})
-
-[//]: # (  {% endfor %}</ul>)
-  
-[//]: # (Talks)
-
-[//]: # (======)
-
-[//]: # (  <ul>{% for post in site.talks reversed %})
-
-[//]: # (    {% include archive-single-talk-cv.html  %})
-
-[//]: # (  {% endfor %}</ul>)
-  
-[//]: # (Teaching)
-
-[//]: # (======)
-
-[//]: # (  <ul>{% for post in site.teaching reversed %})
-
-[//]: # (    {% include archive-single-cv.html %})
-
-[//]: # (  {% endfor %}</ul>)
-  
-[//]: # (Service and leadership)
-
-[//]: # (======)
-
-[//]: # (* Currently signed in to 43 different slack teams)
+  * [Hello](https://daterdum.com/hello)
