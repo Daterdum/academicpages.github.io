@@ -39,7 +39,7 @@ spec:
   - host: daterdum.com
     http:
       paths:
-      - path: /
+      - path: /site
         pathType: Prefix
         backend:
           service:

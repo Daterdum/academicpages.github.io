@@ -11,26 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Nanotechnology | Applied Maths and Computer Science, Novosibirs State Technical University, 2017-2021 (Unfinished)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
+* March 2025 - Present: Wildberries, Team Lead MLOps, *Remote, Moscow, Russia*
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2024 - March 2025 (11 months): Wildberries, Software Engineer/MLOps Engineer *Remote, Moscow, Russia*
+  * Engineered and automated the end-to-end lifecycle of machine learning models, deploying a diverse range including Computer Vision, NLP (Text-to-Speech), and recommendation systems into production.
+  * Developed robust backend APIs and orchestrated data processing workflows using Python and Apache Airflow.
+  * Managed and maintained production systems using a modern tech stack, including Docker, Kubernetes, and GitLab CI.
+  * Implemented comprehensive monitoring and alerting solutions with Prometheus, Grafana, and Logstash to ensure high availability and performance of ML services.
+* February 2021 - May 2024 (3 years 4 months): Dialog Systems, Software Engineer *On-site, Novosibirsk, Russia*
+  * Spearheaded a major architectural refactoring by successfully merging two large, business-critical core services into a single, more efficient and maintainable platform component.
+  * Owned the complete backend development for a key logistics project, designing and implementing services to streamline operations.
+  * Developed and maintained microservices using Python and Go, including a central service in Go to manage and control third-party API connectors.
+  * Built and deployed serverless solutions using OpenFaaS and utilized SQL to gather and process analytics for platform statistics monitoring.
+  * Played an integral role in developing the core chat platform, working directly on the services responsible for processing and managing chat dialog trees.
   
 Skills
 ======
