@@ -1,5 +1,5 @@
 # Stage 1: Build Jekyll site
-FROM ruby:3.1-slim as builder
+FROM ruby:3.1-slim AS builder
 RUN apt-get update && apt-get install -y build-essential git
 WORKDIR /srv/jekyll
 COPY Gemfile* ./
